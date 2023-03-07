@@ -1,0 +1,24 @@
+@media screen and (max-width: 565px) {
+    .bannerLogin{
+        display: none;
+        visibility: hidden;
+    }
+    .loginForm{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 425px) {
+    .bannerLogin{
+        display: none;
+        visibility: hidden;
+    }
+    .loginForm{
+        width: 100%;
+    }
+    .form-content{
+        width: 320px;
+    }
+    .btn{
+        margin-top: 40px;
+    }
+}

@@ -1,0 +1,151 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    margin-bottom: 64px;
+}
+header ul{
+    list-style: none;
+}
+header li{
+    font-weight: 500;
+    font-size: 20px;
+}
+.loginSection{
+    display: flex;
+    padding: 0.8% 2%;
+    justify-content: space-between;
+    gap: 20px;
+}
+.loginForm{
+    width: 60%;
+}
+.form-content{
+    width: 431px;
+    font-size: 16px;
+}
+.textRegister{
+    width: 308px;
+}
+.inline-content{
+    display: flex;
+    align-items: center;
+}
+.bannerLogin{
+    border-radius: 15px;
+    background-color: #000842;
+    color: #FFFFFF;
+    padding: 1% 2% 5% 5%;
+}
+.bannerLogin a{
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: right;
+}
+.bannerImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 54px;
+}
+.bannerLogin img{
+    width: 75%;
+}
+
+.loginForm h2{
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 22px;
+}
+.form-section{
+    margin: 5% 0;
+}
+.form-section label{
+    font-size: 13px;
+    color: #999999;
+}
+.form-input{
+    margin-top: 10px;
+    border-bottom: 2px solid #999999;
+}
+.selected{
+    border-bottom: 2px solid #000842;
+}
+.form-input input{
+    width: 100%;
+    border: none;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    transition: 0.5s;
+}
+.form-input input::placeholder{
+    color: #000842
+}
+.form-input input:focus{
+    outline: none;
+}
+.bannerLogin h2{
+    font-weight: 500;
+    font-size: 40px;
+}
+.space-between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.space-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.space-right{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.text-center{
+    text-align: center;
+}
+.loginIcons{
+    margin-top: 31px;
+    gap: 5%;
+}
+button:hover{
+    cursor: pointer;
+}
+.btn{
+    width: 100%;
+    border-radius: 32px;
+    height: 53px;
+    margin-bottom: 12px;
+}
+.btn-primary{
+    color: #fff;
+    background-color: #0C21C1;
+    border: 0;
+}
+.rememberMe input{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    border: 2px solid #000842;
+}
+.rememberMe label, .forgotPass{
+    font-size: 12px;
+}
+.rememberMe label{
+    color: #000842;
+    margin: 0;
+}
+.continue{
+    margin-top: 20px;
+    color: #B5B5B5;
+}
+.loginOptions{
+    margin-top: 17px;
+}
+.visibility{
+    cursor: pointer;
+}
